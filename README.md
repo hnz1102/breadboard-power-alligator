@@ -19,6 +19,8 @@ Be careful to connect the adoptor to the bread-board. The inside of the bread-bo
 ## Schematic
 Each adoptor has a different output voltage. The output voltage is determined by any of the following parts.
 
+[Schematic PDF File](doc/schematic.pdf)
+
 |Output Voltage|U102|D102|C101|C104|R103|R104|R105|R106|JP101|JP102|
 |---|---|--|--|--|--|--|--|--|--|--|
 |3.3V|AZ1117CH-3.3|CUS10F3D|DNP|10uF|1K|DNP|0|DNP|OPEN|SHUNT|
