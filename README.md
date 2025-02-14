@@ -9,6 +9,8 @@
 
 This is power supplies for bread-board. They are designed to be used with a USB PD power supply. The output voltage is from 3.3V to 20V, and the output current is maximum 1A. The output voltage is fixed each adoptor. I made 6 adoptors for bread-board power supply. The adoptors are 3.3V, 5V, 9V, 12V, 15V, and 20V. The adoptors are connected to the bread-board such an alligator clips. It is easy to set up the power supply for the bread-board. If you use a USB PD power supply, you can use over 9V output. If it is not USB PD, you can use only 3.3V or 5V.
 
+![All Adoptors](doc/all_adaptor_s.jpg)
+
 The PCB is designed by KiCad. The PCB is common to all adoptors. 
 
 ## How to use
@@ -53,6 +55,10 @@ e.g If you want to change the output voltage to 1.8V or 2.5V, you can change the
 
 There are STL data for 3D printer in the `stl` directory.
 bottom.stl is the bottom of the container. upper-al-xx.stl is the upper of the container like alligator clips. upper-simple_xx.stl is the upper of the container like a battery form.
+
+![Container](doc/container_s.jpg)
+
+![Container](doc/build_in_s.jpg)
 
 ## LICENSE
 Hardware Schematic Documents are licensed under CC-BY-SA V4.0.
