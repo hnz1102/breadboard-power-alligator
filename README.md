@@ -7,21 +7,21 @@
 
 # BREAD BOARD POWER ALLIGATOR : Power Supply for Bread-Board
 
-This is power supplies for bread-board. They are designed to be used with a USB PD power supply. The output voltage is from 3.3V to 20V, and the output current is maximum 1A. The output voltage is fixed each adoptor. I made 6 adoptors for bread-board power supply. The adoptors are 3.3V, 5V, 9V, 12V, 15V, and 20V. The adoptors are connected to the bread-board such an alligator clips. It is easy to set up the power supply for the bread-board. If you use a USB PD power supply, you can use over 9V output. If it is not USB PD, you can use only 3.3V or 5V.
+This is power supplies for bread-board. They are designed to be used with a USB PD power supply. The output voltage is from 3.3V to 20V, and the output current is maximum 1A. The output voltage is fixed each adoptor. I made 6 adapters for bread-board power supply. The adapters are 3.3V, 5V, 9V, 12V, 15V, and 20V. The adapters are connected to the bread-board such an alligator clips. It is easy to set up the power supply for the bread-board. If you use a USB PD power supply, you can use over 9V output. If it is not USB PD, you can use only 3.3V or 5V.
 
-![All Adoptors](doc/all_adaptor_s.jpg)
+![All adapters](doc/all_adaptor_s.jpg)
 
-The PCB is designed by KiCad. The PCB is common to all adoptors. 
+The PCB is designed by KiCad. The PCB is common to all adapters. 
 
 ## How to use
 Just connect a USB PD power supply to the USB-C connector. Then, connect the adoptor to the bread-board. The output voltage is fixed each adoptor. If it turns on the power supply, the LED lights up. 
 
-Be careful to connect the adoptor to the bread-board. The inside of the bread-board power line is +, so connect it so that the top is -. Also, be careful not to connect different adoptors to the same bread-board.
+Be careful to connect the adoptor to the bread-board. The inside of the bread-board power line is +, so connect it so that the top is -. Also, be careful not to connect different adapters to the same bread-board.
 
 ## Schematic
-Each adoptor has a different output voltage. The output voltage is determined by any of the following parts.
-
 [Schematic PDF File](doc/schematic.pdf)
+
+Each adoptor has a different output voltage. The output voltage is determined by any of the following parts.
 
 |Output Voltage|U102|D102|C101|C104|R103|R104|R105|R106|JP101|JP102|
 |---|---|--|--|--|--|--|--|--|--|--|
@@ -33,7 +33,7 @@ Each adoptor has a different output voltage. The output voltage is determined by
 |20V|DNP|DNP|1uF|DNP|2K|1K|DNP|200K|SHUNT|OPEN|
 
 *1 DNP: Do Not Populate
-*2 R107 is DNP for all adoptors.
+*2 R107 is DNP for all adapters.
 
 If you want to change the output voltage, you can change the parts of the table.
 e.g If you want to change the output voltage to 1.8V or 2.5V, you can change the parts as follows.
